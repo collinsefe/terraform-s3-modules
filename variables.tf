@@ -1,6 +1,17 @@
+
+
+
+variable "bucket_name" {
+  default = "modules-collinsdemobucket-12042025"
+}
+
+
 variable "tag_collins" {
   default = "modules: collins instance"
 }
+
+
+
 
 variable "tag_bimbo" {
   default = "modules: bimbo instance"
@@ -35,11 +46,6 @@ variable "content_type" {
 variable "s3_source" {
   default = "tools/index.html"
 }
-
-# variable "source_hash" {
-#   type    = string
-#   default = filemd5("modules/s3/assets/index.html")
-# }
 
 
 

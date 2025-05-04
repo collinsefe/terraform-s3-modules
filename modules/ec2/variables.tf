@@ -30,7 +30,3 @@ variable "public_subnets" {
 variable "vpc_public_subnets" {
   default = ""
 }
-
-# variable "security_group_id" {
-#   default = ""
-# }
